@@ -3,7 +3,7 @@ An easy way to plot COVID-19 info.
 
 ### Sofware (for developers)
 
-[Get the last version of this software here](https://github.com/PythonForChange/CovidPlot).
+[Get the last version of this software here](https://github.com/PythonForChange/CovidPlot/blob/main/covidPlot.py).
 CovidPlot
 
 ### Installation
@@ -19,7 +19,7 @@ import pyforchange.covidPlot
 3. Enjoy!
 
 #### Option 2: Download the source (unstable pre-realise version)
-1. Download [CovidPlot](covidPlot.py) into your proyect folder
+1. Download [covidPlot](covidPlot.py) into your proyect folder
 2. Import covidPlot in your python file
 ```python
 import covidPlot
@@ -27,11 +27,15 @@ import covidPlot
 3. Enjoy!
 
 ### Usage
+Import covidPlot and define datasets.
 ```python
+from pyforchange.covidPlot import *
+
 chile=CovidData()
 usa=CovidData('United States')
 ```
 
+Plot the parameters you want for each dataset.
 ```python
 chile.plot('new_vaccinations_smoothed_per_million')
 
