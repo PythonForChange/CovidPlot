@@ -4,7 +4,7 @@ An easy way to plot COVID-19 info.
 ### Sofware (for developers)
 
 [Get the last version of this software here](https://github.com/PythonForChange/CovidPlot).
-
+CovidPlot
 
 ### Installation
 #### Option 1: Use pip (recommended, last stable version)
@@ -12,21 +12,19 @@ An easy way to plot COVID-19 info.
 ```
 pip install pyforchange
 ```
-2. Import pfcf in your python file
+2. Import covidPlot in your python file
 ```python
-import pyforchange.pfcf
+import pyforchange.covidPlot
 ```
 3. Enjoy!
 
 #### Option 2: Download the source (unstable pre-realise version)
-1. Download [PFCF](pfcf.py) into your proyect folder
-2. Import pfcf in your python file
+1. Download [CovidPlot](covidPlot.py) into your proyect folder
+2. Import covidPlot in your python file
 ```python
-import pfcf
+import covidPlot
 ```
 3. Enjoy!
-### Install
-
 
 ### Usage
 ```python
